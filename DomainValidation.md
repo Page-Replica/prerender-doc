@@ -13,6 +13,8 @@ After adding your domain, you need to prove that you own it. This is required to
 
 ## Step-by-step validation process
 
+### **Option 1: File Upload Validation**
+
 1. **Create a TXT file**  
    Name the file:
 
@@ -39,5 +41,27 @@ https://yourdomain.com/page-replica.txt
    Once the file is uploaded, return to the dashboard and click the **Validate** button.  
    If you wish to remove the site, click **Delete**.
 
+---
+
+### **Option 2: DNS Record Validation**
+
+1. **Add a TXT record to your DNS settings**  
+   Log in to your domain registrar or DNS provider and navigate to the DNS settings.  
+   Create a new TXT record with the following details:
+
+   - **Host/Name**: `@` or your domain name (e.g., `yourdomain.com`)
+   - **Type**: `TXT`
+   - **Value**: `[your public token here]`
+   - **TTL**: Default or 3600 seconds
+
+2. **Save the changes**  
+   Once the TXT record is added, save the changes in your DNS settings.
+
+3. **Complete validation**  
+   Return to the dashboard and click the **Validate** button.  
+   If you wish to remove the site, click **Delete**.
+
+---
+
 If there are any errors, they will be displayed in the dashboard.  
-After successful validation, you can start tracking and monitoring your site's uptime and performance.
+After successful validation, you can start creating requests to prerender your pages with Page Replica pre-rendering service.
