@@ -19,4 +19,5 @@
   - [NGINX](Nginx)
   - [Cloudflare](Cloudflare)
   - [Meteor.js](Meteor)
+  - [Lovable + CloudFlare](Lovable)
   - [Test Your Setup](TestConfig)
