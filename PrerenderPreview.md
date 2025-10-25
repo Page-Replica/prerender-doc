@@ -3,7 +3,7 @@
 ## Generate a Preview
 
 - Click **Generate a preview** in your dashboard.
-- You can create a preview once every set interval (e.g., every 5 minutes).
+- You can create a preview once every set interval (every 15 minutes).
 - Use the preview link to check how your site will appear when prerendered.
 
 ## Submit Request to Prerender
