@@ -1,6 +1,6 @@
 # Add URLs to Queue (`POST`)
 
-Use the POST method to add URLs to the prerendering queue. The API will process valid URLs and add them to the queue, up to your quota.
+Use the POST method to add URLs to the pre‑rendering queue. The API processes valid URLs and enqueues them, up to your quota. Only absolute URLs under your validated domain are accepted.
 
 ## Example: Using Curl
 
@@ -10,7 +10,7 @@ curl -X POST \
   -H "x-site-id: SITE_ID" \
   -H "Content-Type: application/json" \
   -d '["https://example.com/page1", "https://example.com/page2"]' \
-  'https://page-replica.com/api/request/'
+  'https://your-app-domain.com/api/request/'
 ```
 
 ## Example: Using Axios
@@ -19,7 +19,7 @@ curl -X POST \
 const axios = require("axios");
 axios
   .post(
-    "https://page-replica.com/api/request/",
+    "https://your-app-domain.com/api/request/",
     ["https://example.com/page1", "https://example.com/page2"],
     {
       headers: {
@@ -43,7 +43,7 @@ axios
 ## Example: Using fetch API
 
 ```javascript
-fetch("https://page-replica.com/api/request/", {
+fetch("https://your-app-domain.com/api/request/", {
   method: "POST",
   headers: {
     "x-secret-token": "SITE_SECRET_TOKEN",

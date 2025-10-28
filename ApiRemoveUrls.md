@@ -1,6 +1,7 @@
 # Remove URLs from Queue (`DELETE`)
 
 Use the DELETE method to remove URLs from the request queue. Only URLs that have not yet been processed can be deleted. The request body should be a JSON array of URLs.
+Only absolute URLs under your validated domain are accepted.
 
 ## Example: Using Curl
 
@@ -10,7 +11,7 @@ curl -X DELETE \
   -H "x-site-id: SITE_ID" \
   -H "Content-Type: application/json" \
   -d '["https://example.com/page1", "https://example.com/page2"]' \
-  'https://page-replica.com/api/request/'
+  'https://your-app-domain.com/api/request/'
 ```
 
 ## Example: Using Axios
@@ -18,14 +19,14 @@ curl -X DELETE \
 ```javascript
 axios
   .delete(
-    "https://page-replica.com/api/request/",
-    ["https://example.com/page1", "https://example.com/page2"],
+    "https://your-app-domain.com/api/request/",
     {
       headers: {
         "x-secret-token": "SITE_SECRET_TOKEN",
         "x-site-id": "SITE_ID",
         "Content-Type": "application/json",
       },
+      data: ["https://example.com/page1", "https://example.com/page2"],
     },
   )
   .then((response) => {
@@ -42,7 +43,7 @@ axios
 ## Example: Using fetch API
 
 ```javascript
-fetch("https://page-replica.com/api/request/", {
+fetch("https://your-app-domain.com/api/request/", {
   method: "DELETE",
   headers: {
     "x-secret-token": "SITE_SECRET_TOKEN",

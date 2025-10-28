@@ -42,6 +42,7 @@
     <div id="app"></div>
 
     <script>
+      const YEAR = new Date().getFullYear();
       window.$docsify = {
         routerMode: 'history', // Add this line
         share: {
@@ -66,11 +67,16 @@
           hideOtherSidebarContent: false,
         },
         footer: {
-          copy: "<span>Pre-rendering</span>",
-          auth: "by Page Replica <a href='https://page-replica.com'>https://page-replica.com</a>",
-          pre: "<hr/>",
-          style: "text-align: left;",
-          class: "className",
+          copy: `<span>© ${YEAR} <strong>Page&nbsp;Replica</strong> • Render • Cache • Serve</span>`,
+          auth: `
+            <a href='/' title='Docs Home'>Docs Home</a>
+            · <a href='https://github.com/Page-Replica/page-replica' target='_blank' rel='noreferrer'>GitHub</a>
+            · <a href='mailto:contact@page-replica.com'>Contact</a>
+            · <a href='https://page-replica.com' target='_blank' rel='noreferrer'>Website</a>
+          `,
+          pre: "<hr>",
+          style: "display:flex; flex-wrap:wrap; gap:12px; justify-content:space-between; align-items:center; font-size:0.95em; opacity:.9;",
+          class: "docsify-footer-enhanced",
         },
         name: "Pre-rendering Service by Page Replica",
         repo: "",

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://pre-render.page-replica.com/#/</loc></url>
+  <url><loc>https://pre-render.page-replica.com/#/GettingStarted</loc></url>
+  <url><loc>https://pre-render.page-replica.com/#/AddDomain</loc></url>
+  <url><loc>https://pre-render.page-replica.com/#/DomainValidation</loc></url>
+  <url><loc>https://pre-render.page-replica.com/#/PrerenderPreview</loc></url>
+  <url><loc>https://pre-render.page-replica.com/#/PrerenderRequests</loc></url>
+  <url><loc>https://pre-render.page-replica.com/#/BotRedirection</loc></url>
+  <url><loc>https://pre-render.page-replica.com/#/BotRedirectionRecipes</loc></url>
+  <url><loc>https://pre-render.page-replica.com/#/Nginx</loc></url>
+  <url><loc>https://pre-render.page-replica.com/#/Cloudflare</loc></url>
+  <url><loc>https://pre-render.page-replica.com/#/Meteor</loc></url>
+  <url><loc>https://pre-render.page-replica.com/#/Lovable</loc></url>
+  <url><loc>https://pre-render.page-replica.com/#/TestConfig</loc></url>
+  <url><loc>https://pre-render.page-replica.com/#/ApiOverview</loc></url>
+  <url><loc>https://pre-render.page-replica.com/#/ApiAuthentication</loc></url>
+  <url><loc>https://pre-render.page-replica.com/#/ApiPayload</loc></url>
+  <url><loc>https://pre-render.page-replica.com/#/ApiAddUrls</loc></url>
+  <url><loc>https://pre-render.page-replica.com/#/ApiRemoveUrls</loc></url>
+  <url><loc>https://pre-render.page-replica.com/#/ApiErrors</loc></url>
+  <url><loc>https://pre-render.page-replica.com/#/ApiBestPractices</loc></url>
+</urlset>

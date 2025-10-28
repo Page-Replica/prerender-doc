@@ -1,12 +1,10 @@
 - [Getting Started](GettingStarted)
-
-  - [Add your domain](AddDomain)
+  - [Add Your Domain](AddDomain)
   - [Verify Domain Ownership](DomainValidation)
-  - [Create Requests to Prerender](PrerenderRequests)
-  - [Preview & What Happens Next](PrerenderPreview)
+  - [Generate a Preview](PrerenderPreview)
+  - [Create Pre-render Requests](PrerenderRequests)
 
 - API Reference
-
   - [Overview](ApiOverview)
   - [Authentication](ApiAuthentication)
   - [Request & Response Structure](ApiPayload)
@@ -15,9 +13,9 @@
   - [Error Handling](ApiErrors)
   - [Best Practices & Notes](ApiBestPractices)
 
-- [Bot Redirection](BotRedirection)
+- [Bot Routing](BotRedirection)
   - [NGINX](Nginx)
   - [Cloudflare](Cloudflare)
   - [Meteor.js](Meteor)
-  - [Lovable + CloudFlare](Lovable)
+  - [Lovable + Cloudflare](Lovable)
   - [Test Your Setup](TestConfig)
